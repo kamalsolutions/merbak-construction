@@ -39,8 +39,8 @@ gulp.task("watchSass", function() {
 
 gulp.task("concatStyle", ["compileSass"], function() {
     gulp.src([
-            "assets/css/bootstrap.min.css",
-            "assets/css/font-awesome.min.css",
+            "assets/css/utilities/bootstrap.min.css",
+            "assets/css/utilities/font-awesome.min.css",
             "public/css/main.css"
         ])
         .pipe(concat("main.css"))
