@@ -107,14 +107,14 @@ body {
 .coming-soon {
   margin: 10% auto; }
   .coming-soon .coming-soon-content {
-    background: #0b0b0b;
-    opacity: 0.6;
+    opacity: 0.8;
     padding: 5%;
     padding-top: 10%; }
     .coming-soon .coming-soon-content h3 {
       padding-top: 5%;
-      color: #EB8C3D;
-      opacity: 1 !important; }
+      color: #fff;
+      opacity: 1 !important;
+      font-weight: 700; }
     .coming-soon .coming-soon-content p {
       color: #fff;
       text-align: center; }
@@ -127,7 +127,7 @@ body {
   color: #fff; }
 
 body {
-  background: url("../../img/merbak-coming-soon.png");
+  background: url("../../img/background-3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
